@@ -1,8 +1,6 @@
 #!/bin/bash
 
 # script for choosing commonly edited configs for edit
-# define array of configs with numbers ordered alphabetically
-#       choose config with number
 
 # config list by path
 declare -a configs=(
