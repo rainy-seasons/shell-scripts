@@ -13,7 +13,7 @@ then
   if [[ $header == *"image"* ]] || [[ $header == *"bitmap"* ]]
   then
     echo "moving" $1 "to images"
-    mv $s images
+    mv $1 images
   elif [[ $header == *"Audio"* ]] || [[ $header == *"audio"* ]]
   then
     echo "moving" $1 "to music"
